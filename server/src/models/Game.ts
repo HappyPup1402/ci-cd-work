@@ -51,3 +51,5 @@ const gameSchema = new Schema<IGame>(
 const Game = model<IGame>('Game', gameSchema);
 
 export { type IGame, Game };
+
+
